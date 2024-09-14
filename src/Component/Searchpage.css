@@ -1,0 +1,26 @@
+.searchbar{
+    flex: 0.8;
+    padding: 20px 20px;
+    margin-left: 150px;
+    margin-bottom: 100%;
+}
+.searchpage_fil{
+    display: flex;
+    align-items: center;
+    font-size: xx-small;
+
+}
+.searchpage_fil >h2{
+    margin-left: 10xp;
+
+}
+.searchpage > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imm{
+    height: 35px;
+}

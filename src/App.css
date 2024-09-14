@@ -1,0 +1,36 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.header-img{
+  height: 35px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+.header-icons{
+  display: flex;
+  height: 35px;
+}
+.header-input{
+  display: flex;
+  height: 30px;
+  width: 30%;
+  border: 1% solid black;
+}
+.header-input>input{
+  flex: 1;
+  border: none;
+}
+.size{
+  width: 30px;
+  
+}
+.app_layout{
+  display: flex;
+}

@@ -1,0 +1,17 @@
+.sidebar_title{
+    margin-left: 20px;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+.sidebarrow:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.sidebarrow:hover > .sidebar_title{
+    font-weight: bold;
+}
+.sidebarrow.selected{
+    background-color: lightgrey;
+}
